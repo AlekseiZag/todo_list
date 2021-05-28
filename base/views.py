@@ -39,6 +39,7 @@ class RegisterPage(FormView):
 
 
 class TaskList(LoginRequiredMixin, ListView):
+
     model = Task
     context_object_name = 'tasks'
 
